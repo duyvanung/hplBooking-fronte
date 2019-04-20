@@ -27,7 +27,7 @@ class App extends Component {
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
           <Route path='/price' component={Price} />
-          <Route path='/profile' component={Profile} />
+          {/* <Route path='/profile' component={Profile} /> */}
         </div>
 
         <Footer />
